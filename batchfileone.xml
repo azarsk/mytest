@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite" guice-stage="DEVELOPMENT" parallel="methods">
+  <test thread-count="5" name="Default test" verbose="2">
+    <classes>
+      <class name="Resturantprogramee.Batch2"/>
+      <class name="SampleProgramme.Batch3"/>
+      <class name="Selenium.Batch1"/>
+      <class name="testNG_Class.TestNG_Class1"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
